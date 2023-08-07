@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <div id="guide"></div>
+      <canvas width="450" height="450" id="canvas"></canvas>
+    </div>
+    <div>
+      <label for="colorInput">Set color: </label>
+      <input type="color" id="colorInput" />
+    </div>
+    <div>
+      <label for="toggleGuide">Show Gaurd: </label>
+      <input type="checkbox" id="toggleGuide" checked />
+    </div>
+    <div>
+        <label for="gridSize">Grid Size: </label>
+        <select name="gridSize" id="gridSize">
+            <option value="8">8 x 8</option>
+            <option value="12">12 x 12</option>          
+             <option value="16">16 x 16</option>
+            <option value="32">32 x 32</option>
+          </select>
+      </div>
+    <div>
+      <button type="button" id="clearButton" checked>Clear</button>
+    </div>
+  </body>
+  <script src="./index.js" defer></script>
+</html>
